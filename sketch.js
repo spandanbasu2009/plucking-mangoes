@@ -24,7 +24,7 @@ function setup() {
 	mango2=new mango(950,150,30);
 	mango3=new mango(1200,200,30);
 	mango4=new mango(1050,120,30);
-	mango5=new mango(1350,140,30);
+	mango5=new mango(950,140,30);
 	mango6=new mango(980,150,30);
 	mango7=new mango(1000,120,30);
 	mango8=new mango(1300,130,30);
@@ -37,7 +37,7 @@ function setup() {
 	groundObject=new ground(width/2,600,width,20);
   launcher = new Launcher(stone.body,{x:240,y:420});
 	
-	Engine.run(engine);
+	//Engine.run(engine);
 
 }
 
